@@ -1,0 +1,28 @@
+/* style.css */
+
+.title {
+  background-color: blue;
+  color: blanchedalmond;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.body {
+  background-color: whitesmoke;
+}
+
+.ul {
+  font-size: 22px;
+  background-color: violet;
+}
+
+.odd-items {
+  background-color: hotpink;
+
+}
+
+.even-items {
+  background-color: yellowgreen;
+  
+}
