@@ -1,10 +1,16 @@
 /** index javascript file */
 
+let incEl = document.getElementById("counter");
 let count = 0;
 
-let inc_el = document.getElementById("increment").onclick() = () => {
+function incrementCounter() {
     count += 1;
-    console.log("increment count: " + count);
+    incEl.innerText = count
 }
 
-inc_el.innerText = count;
+function resetCounter() {
+    count = 0;
+    incEl.innerText = count
+}
+
+incEl.innerText = count;
