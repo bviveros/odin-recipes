@@ -1,6 +1,6 @@
 /* style.css */
 
-.title {
+#title {
   background-color: blue;
   color: blanchedalmond;
   text-align: center;
@@ -13,16 +13,30 @@
 }
 
 .ul {
-  font-size: 22px;
+  font-size: 44px;
   background-color: violet;
+  text-align: center;
 }
 
 .odd-items {
-  background-color: hotpink;
+  background-color: violet;
 
 }
 
 .even-items {
-  background-color: yellowgreen;
+  background-color: lightblue;
   
+}
+
+#lentils {
+  align-content: center;
+}
+
+
+#spaghetti {
+  align-content: center;
+}
+
+#macandcheese {
+  align-content: center;
 }

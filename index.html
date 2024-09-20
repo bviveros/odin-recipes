@@ -1,21 +1,27 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title> Recipe Page</title>
         <link  rel="stylesheet" href="style.css">
     </head>
-    <body class="body">
-        <h1 class="title"> Odin Recipies </h1>
+    <body id="body">
+        <h1 id="title"> Odin Recipies </h1>
 
-        <ul class="ul">
-            <li> <a class="odd-items" href="recipes/lentils.html" target="_blank" rel="noopener noreferrer"> Lentils </a> </li>
+        <ul id="ul">
+            <li id="lentils" class="odd-items" > <a href="recipes/lentils.html" target="_blank" rel="noopener noreferrer"> Lentils </a> </li>
             <br><br>
-            <li> <a class="even-items" href="recipes/spaghetti.html" target="_blank" rel="noopener noreferrer"> Spaghetti </a> </li>
+            <li id="spaghetti" class="even-items"> <a href="recipes/spaghetti.html" target="_blank" rel="noopener noreferrer"> Spaghetti </a> </li>
             <br><br>
-            <li> <a class="odd-items" href="recipes/macandcheese.html" target="_blank" rel="noopener noreferrer"> Mac and Cheese </a> </li>
+            <li id="macandcheese" class="odd-items"> <a href="recipes/macandcheese.html" target="_blank" rel="noopener noreferrer"> Mac and Cheese </a> </li>
             <br><br>
         </ul>
+
+        <div id = buttons-div>
+            <button id="increment" type="button">0</button>
+            <button id="reset" type="button">RESET</button>
+            <script src="index.js"></script>   
+        </div>
+        
     </body>
 </html>
