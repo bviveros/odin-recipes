@@ -8,6 +8,13 @@ function incrementCounter() {
     incEl.innerText = count
 }
 
+function decrementCounter() {
+    if( count > 0) {
+        count -= 1;
+    }
+    incEl.innerText = count
+}
+
 function resetCounter() {
     count = 0;
     incEl.innerText = count
